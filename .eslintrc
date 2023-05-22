@@ -41,7 +41,7 @@
       "arrow-body-style": "off",
       "prefer-arrow-callback": "off",
       "linebreak-style": [0, "unix"],
-      "quotes": ["error", "single"],
+      "quotes": [2, "single", { "avoidEscape": true }],
       "semi": 0,
       "react/react-in-jsx-scope": "off",
       "react/jsx-uses-react": "error",
